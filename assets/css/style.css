@@ -7,7 +7,7 @@
 /* Element Selectors */
 body {
   position: relative;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'A-Goblin-Appears', Arial, Helvetica, sans-serif;  
   font-size: 20px;
   background-color: #3084f3;
 }
@@ -24,8 +24,8 @@ h2 {
   src: url('fonts/A-Goblin-Appears.svg') format ('svg');
   src: url('fonts/A-Goblin-Appears.ttf') format('trutype');
   src: url('fonts/A-Goblin-Appears.woff') format ('woff');
-  src: url(fonts/A-Goblin-Appears.woff2) format ('woff2');
-  }
+  src: url('fonts/A-Goblin-Appears.woff2') format ('woff2');
+}
 
 main {
   padding: 60px 0;
@@ -117,7 +117,7 @@ button {
 /* Class Selectors */
 .text-center {
   text-align: center;
-  
+  font-family: 'A-Goblin-Appears', Arial, Helvetica, sans-serif;
 }
 
 .subtext-center {
